@@ -77,7 +77,7 @@ export const AuthForm = () => {
         className='space-y-6'
         onSubmit={handleSubmit(onSubmit)} //handleSubmit will pass the data to onSubmt
         >
-          <Input label='email'/>
+          <Input id='email' label='Email' register={register}/>
         </form>
 
       </div>
